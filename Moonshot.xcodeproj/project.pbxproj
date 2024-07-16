@@ -13,6 +13,8 @@
 		5B6454EB2C45C1B4007039B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6454EA2C45C1B4007039B8 /* Preview Assets.xcassets */; };
 		5B6454F22C462ACA007039B8 /* TestImageResizingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6454F12C462ACA007039B8 /* TestImageResizingView.swift */; };
 		5B6454F42C462D2C007039B8 /* TestScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6454F32C462D2C007039B8 /* TestScrollView.swift */; };
+		5B6454F62C462FE0007039B8 /* TestViewStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6454F52C462FE0007039B8 /* TestViewStackView.swift */; };
+		5BEFA5CD2C46336400E8DD89 /* TestScrollingGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEFA5CC2C46336400E8DD89 /* TestScrollingGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		5B6454EA2C45C1B4007039B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5B6454F12C462ACA007039B8 /* TestImageResizingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImageResizingView.swift; sourceTree = "<group>"; };
 		5B6454F32C462D2C007039B8 /* TestScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollView.swift; sourceTree = "<group>"; };
+		5B6454F52C462FE0007039B8 /* TestViewStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewStackView.swift; sourceTree = "<group>"; };
+		5BEFA5CC2C46336400E8DD89 /* TestScrollingGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollingGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				5B6454E92C45C1B4007039B8 /* Preview Content */,
 				5B6454F12C462ACA007039B8 /* TestImageResizingView.swift */,
 				5B6454F32C462D2C007039B8 /* TestScrollView.swift */,
+				5B6454F52C462FE0007039B8 /* TestViewStackView.swift */,
+				5BEFA5CC2C46336400E8DD89 /* TestScrollingGridView.swift */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -145,8 +151,10 @@
 			files = (
 				5B6454E62C45C1B3007039B8 /* ContentView.swift in Sources */,
 				5B6454F42C462D2C007039B8 /* TestScrollView.swift in Sources */,
+				5BEFA5CD2C46336400E8DD89 /* TestScrollingGridView.swift in Sources */,
 				5B6454E42C45C1B2007039B8 /* MoonshotApp.swift in Sources */,
 				5B6454F22C462ACA007039B8 /* TestImageResizingView.swift in Sources */,
+				5B6454F62C462FE0007039B8 /* TestViewStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
