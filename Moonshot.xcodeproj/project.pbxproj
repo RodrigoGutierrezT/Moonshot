@@ -11,6 +11,8 @@
 		5B6454E62C45C1B3007039B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6454E52C45C1B2007039B8 /* ContentView.swift */; };
 		5B6454E82C45C1B4007039B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6454E72C45C1B4007039B8 /* Assets.xcassets */; };
 		5B6454EB2C45C1B4007039B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6454EA2C45C1B4007039B8 /* Preview Assets.xcassets */; };
+		5B6454F22C462ACA007039B8 /* TestImageResizingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6454F12C462ACA007039B8 /* TestImageResizingView.swift */; };
+		5B6454F42C462D2C007039B8 /* TestScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6454F32C462D2C007039B8 /* TestScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		5B6454E52C45C1B2007039B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5B6454E72C45C1B4007039B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B6454EA2C45C1B4007039B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B6454F12C462ACA007039B8 /* TestImageResizingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImageResizingView.swift; sourceTree = "<group>"; };
+		5B6454F32C462D2C007039B8 /* TestScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				5B6454E52C45C1B2007039B8 /* ContentView.swift */,
 				5B6454E72C45C1B4007039B8 /* Assets.xcassets */,
 				5B6454E92C45C1B4007039B8 /* Preview Content */,
+				5B6454F12C462ACA007039B8 /* TestImageResizingView.swift */,
+				5B6454F32C462D2C007039B8 /* TestScrollView.swift */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B6454E62C45C1B3007039B8 /* ContentView.swift in Sources */,
+				5B6454F42C462D2C007039B8 /* TestScrollView.swift in Sources */,
 				5B6454E42C45C1B2007039B8 /* MoonshotApp.swift in Sources */,
+				5B6454F22C462ACA007039B8 /* TestImageResizingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
