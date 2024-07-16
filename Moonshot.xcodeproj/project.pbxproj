@@ -14,6 +14,8 @@
 		5B6454F22C462ACA007039B8 /* TestImageResizingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6454F12C462ACA007039B8 /* TestImageResizingView.swift */; };
 		5B6454F42C462D2C007039B8 /* TestScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6454F32C462D2C007039B8 /* TestScrollView.swift */; };
 		5B6454F62C462FE0007039B8 /* TestViewStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6454F52C462FE0007039B8 /* TestViewStackView.swift */; };
+		5BEF4B4D2C470EF600BE118B /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF4B4B2C470EF600BE118B /* astronauts.json */; };
+		5BEF4B4E2C470EF600BE118B /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF4B4C2C470EF600BE118B /* missions.json */; };
 		5BEFA5CD2C46336400E8DD89 /* TestScrollingGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEFA5CC2C46336400E8DD89 /* TestScrollingGridView.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +28,8 @@
 		5B6454F12C462ACA007039B8 /* TestImageResizingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImageResizingView.swift; sourceTree = "<group>"; };
 		5B6454F32C462D2C007039B8 /* TestScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollView.swift; sourceTree = "<group>"; };
 		5B6454F52C462FE0007039B8 /* TestViewStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewStackView.swift; sourceTree = "<group>"; };
+		5BEF4B4B2C470EF600BE118B /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		5BEF4B4C2C470EF600BE118B /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		5BEFA5CC2C46336400E8DD89 /* TestScrollingGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollingGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +63,8 @@
 		5B6454E22C45C1B2007039B8 /* Moonshot */ = {
 			isa = PBXGroup;
 			children = (
+				5BEF4B4B2C470EF600BE118B /* astronauts.json */,
+				5BEF4B4C2C470EF600BE118B /* missions.json */,
 				5B6454E32C45C1B2007039B8 /* MoonshotApp.swift */,
 				5B6454E52C45C1B2007039B8 /* ContentView.swift */,
 				5B6454E72C45C1B4007039B8 /* Assets.xcassets */,
@@ -145,7 +151,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BEF4B4D2C470EF600BE118B /* astronauts.json in Resources */,
 				5B6454EB2C45C1B4007039B8 /* Preview Assets.xcassets in Resources */,
+				5BEF4B4E2C470EF600BE118B /* missions.json in Resources */,
 				5B6454E82C45C1B4007039B8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
