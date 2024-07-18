@@ -26,6 +26,9 @@ struct MissionView: View {
                         width * 0.6
                     }
                 
+                Text(mission.completeFormattedLaunchDate)
+                    .padding(.top, 5)
+                
                 VStack(alignment: .leading) {
                     Rectangle()
                         .frame(height: 2)
@@ -105,6 +108,6 @@ struct MissionView: View {
     let missions: [Mission] = Bundle.main.decode("missions.json")
     let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
     
-    return MissionView(mission: missions[0], astronauts: astronauts)
+    return MissionView(mission: missions[1], astronauts: astronauts)
         .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
 }
