@@ -14,10 +14,7 @@ struct ListLayout: View {
     var body: some View {
         List(missions) { mission in
             HStack {
-                NavigationLink {
-                    MissionView(mission: mission, astronauts: astronauts)
-                } label: {
-                    
+                NavigationLink(value: mission) {
                     VStack(alignment: .leading) {
                         Text(mission.displaName)
                             .font(.headline)
